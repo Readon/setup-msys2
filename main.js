@@ -16,9 +16,11 @@ function dummy() {
     return [__dirname + '/action.yml', __dirname + '/README.md'];
 }
 
-const INSTALLER_VERSION = '2025-06-22';
-const INSTALLER_URL = `https://github.com/msys2/msys2-installer/releases/download/${INSTALLER_VERSION}/msys2-base-x86_64-${INSTALLER_VERSION.replace(/-/g, '')}.sfx.exe`;
-const INSTALLER_CHECKSUM = 'df6c053891d0b87c9104c118c0ce22885c3bc350a7659958d6d97a6760ccfa76';
+const INSTALLER_VERSION = 'v1.12.2a';
+const SCALA_VERSION = '2.12';
+const SPINAL_VERSION = '1.12.2';
+const INSTALLER_URL = `https://github.com/Readon/SpinalHDL-installer/releases/download/${INSTALLER_VERSION}/msys2-x86_64-${SCALA_VERSION}-${SPINAL_VERSION}.exe`;
+const INSTALLER_CHECKSUM = '7c454549122a6fcae54aabdb68080ce48b0144b27ce879c665d37d763b568e69';
 // see https://github.com/msys2/setup-msys2/issues/61
 const INSTALL_CACHE_ENABLED = false;
 const CACHE_FLUSH_COUNTER = 0;

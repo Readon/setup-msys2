@@ -4,7 +4,7 @@
   "description": "MSYS2 Setup GitHub Action",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/msys2/setup-msys2.git"
+    "url": "git+https://github.com/Readon/setup-msys2.git"
   },
   "type": "module",
   "scripts": {
@@ -24,9 +24,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/msys2/setup-msys2/issues"
+    "url": "https://github.com/Readon/setup-msys2/issues"
   },
-  "homepage": "https://github.com/msys2/setup-msys2",
+  "homepage": "https://github.com/Readon/setup-msys2",
   "dependencies": {
     "@actions/cache": "^4.0.3",
     "@actions/core": "^1.11.1",
