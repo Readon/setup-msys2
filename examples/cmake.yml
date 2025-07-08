@@ -33,7 +33,7 @@ jobs:
         persist-credentials: false
 
     - name: '${{ matrix.icon }} Setup MSYS2'
-      uses: msys2/setup-msys2@v2
+      uses: Readon/setup-msys2@v2
       with:
         msystem: ${{matrix.sys}}
         update: true
