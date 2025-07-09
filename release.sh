@@ -33,3 +33,9 @@ git commit -a -m "$1 $GIT_SHA"
 git tag "$1"
 git tag -d "v2"
 git tag "v2"
+
+cd release
+git push
+git push --tags
+git push +v2
+cd ..
