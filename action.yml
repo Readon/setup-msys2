@@ -24,6 +24,22 @@ inputs:
     description: 'After installation and/or update, install additional packages through pacboy'
     required: false
     default: false
+  installer-version:
+    description: 'MSYS2 installer version (e.g. v1.12.2a)'
+    required: false
+    default: 'v1.12.2a'
+  installer-checksum:
+    description: 'SHA256 checksum of the installer EXE'
+    required: false
+    default: '7c454549122a6fcae54aabdb68080ce48b0144b27ce879c665d37d763b568e69'
+  scala-version:
+    description: 'Scala version (e.g. 2.12)'
+    required: false
+    default: '2.12'
+  spinal-version:
+    description: 'SpinalHDL version (e.g. 1.12.2)'
+    required: false
+    default: '1.12.2'
   release:
     description: 'Retrieve and extract base installation from upstream GitHub Releases'
     required: false
