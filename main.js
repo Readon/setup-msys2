@@ -361,7 +361,7 @@ async function run() {
         core.endGroup();
 
         core.startGroup('Extracting MSYS2...');
-        await exec.exec(inst_dest, ['-y'], {cwd: dest});
+        await exec.exec(inst_dest, ['in', '--confirm-command', '--accept-messages', '--root', msysRootDir], {cwd: dest});
         core.endGroup();
 
         core.startGroup('Disable Key Refresh...');
